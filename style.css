@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 15vw;
+}
+#logo {
+  width: 202.576px;
+  height: 60.526px;
+  margin-inline: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar > li {
+  list-style-type: none;
+}
+.plus {
+  display: inline-block;
+  background-color: white;
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 1px;
+  text-align: center;
+}
+.heart {
+  display: inline-block;
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 1px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.episode{
+  display: inline-block;
+  text-align: center;
+  width: 37.057px;
+height: 37.057px;
+border-radius: 5px;
+background: #004638;
+}
+.main-section{
+  width: 1457.1px;
+  height: 1115.885px;
+  background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+}
+.main-body{
+  display: flex;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+.less-than{
+  display: inline-block;
+  width: 40px;
+height: 40px;
+background-color: black;
+border-radius: 50%;
+text-align: center;
+}
+.grater-than{
+  display: inline-block;
+  width: 40px;
+height: 40px;
+background-color: black;
+border-radius: 50%;
+text-align: center;
+}
+.profile{
+  display: flex;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding-inline: 10px;
+}
+.card{
+  display: inline-block;
+  width: 362px;
+height: 100px;
+border-radius: 4px;
+background: #303030;
+color: white;
+margin: 10px;
+}
+.card1{
+  display: flex;
+  align-items: center;
+}
+.greeting{
+  color: #FFF;
+font-family: DM Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.heading{
+  margin-left: 50px;
+}
+.row_1{
+  display: flex;
+  justify-content: space-between;
+}
+#p_1{
+  color: #FFF;
+font-size: 29px;
+font-weight: 700;
+}
+#p_2{
+  color: #B3B3B3;
+font-size: 17px;
+font-weight: 700;
+}
+.card_2{
+  display: inline-block;
+  color: white;
+  background: #181818;
+  width: 251.292px;
+height: 305.904px;
+margin: 20px
+}
+#artist{
+  width: 207.778px;
+height: 207.928px;
+border-radius: 14px;
+border: none;
+margin: 20px;
+}
+footer{
+  display: flex;
+  width: 1727.1px;
+height: 112px;
+background: #181818;
+justify-content: space-between;
+}
